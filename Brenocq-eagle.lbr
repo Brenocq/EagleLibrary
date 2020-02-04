@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -75,9 +75,122 @@
 <packages>
 </packages>
 <symbols>
+<symbol name="NVIDIA-JETSON-NANO">
+<pin name="3.3V_1" x="-22.86" y="33.02" length="middle" direction="pwr"/>
+<pin name="SDA_2" x="-22.86" y="30.48" length="middle"/>
+<pin name="SCL_2" x="-22.86" y="27.94" length="middle"/>
+<pin name="AUDCLK" x="-22.86" y="25.4" length="middle"/>
+<pin name="GND_1" x="-22.86" y="22.86" length="middle"/>
+<pin name="RTS_2" x="-22.86" y="20.32" length="middle"/>
+<pin name="SCK_2" x="-22.86" y="17.78" length="middle"/>
+<pin name="LCD_TE" x="-22.86" y="15.24" length="middle"/>
+<pin name="3.3V_2" x="-22.86" y="12.7" length="middle" direction="pwr"/>
+<pin name="MOSI_1" x="-22.86" y="10.16" length="middle"/>
+<pin name="MISO_1" x="-22.86" y="7.62" length="middle"/>
+<pin name="SCK_1" x="-22.86" y="5.08" length="middle"/>
+<pin name="GND_2" x="-22.86" y="2.54" length="middle"/>
+<pin name="SDA_1" x="-22.86" y="0" length="middle"/>
+<pin name="CAM_AF_EN" x="-22.86" y="-2.54" length="middle"/>
+<pin name="GPIO_PZ0" x="-22.86" y="-5.08" length="middle"/>
+<pin name="GPIO_PE6" x="-22.86" y="-7.62" length="middle"/>
+<pin name="I2S_4_LRCK" x="-22.86" y="-10.16" length="middle"/>
+<pin name="SPI_2_MOSI" x="-22.86" y="-12.7" length="middle"/>
+<pin name="GND_3" x="-22.86" y="-15.24" length="middle"/>
+<pin name="I2S_4_SDOUT" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="I2S_4_SDIN" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="UART_2_CTS" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="GND_8" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="LCD_BL_PWM" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_7" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="SCL_1" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="SPI_1_CS1" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="SPI_1_CS0" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="SPI_2_MISO" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="GND_6" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="SPI_2_CS0" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="SPI_2_CS1" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="GND_5" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="I2S_4_SCLK" x="22.86" y="20.32" length="middle" rot="R180"/>
+<pin name="RX_2" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="TX_2" x="22.86" y="25.4" length="middle" rot="R180"/>
+<pin name="GND_4" x="22.86" y="27.94" length="middle" rot="R180"/>
+<pin name="5V_2" x="22.86" y="30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="5V_1" x="22.86" y="33.02" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-17.78" y1="35.56" x2="-17.78" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-45.72" x2="17.78" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-45.72" x2="17.78" y2="35.56" width="0.254" layer="94"/>
+<wire x1="17.78" y1="35.56" x2="-17.78" y2="35.56" width="0.254" layer="94"/>
+<text x="-20.32" y="30.48" size="1.524" layer="97">3</text>
+<text x="0" y="30.48" size="2.54" layer="97" align="bottom-center">GPIO</text>
+<text x="-20.32" y="33.02" size="1.524" layer="97">1</text>
+<text x="-20.32" y="27.94" size="1.524" layer="97">5</text>
+<text x="-20.32" y="25.4" size="1.524" layer="97">7</text>
+<text x="-20.32" y="22.86" size="1.524" layer="97">9</text>
+<text x="-20.32" y="20.32" size="1.524" layer="97">11</text>
+<text x="-20.32" y="17.78" size="1.524" layer="97">13</text>
+<text x="-20.32" y="15.24" size="1.524" layer="97">15</text>
+<text x="-20.32" y="12.7" size="1.524" layer="97">17</text>
+<text x="-20.32" y="10.16" size="1.524" layer="97">19</text>
+<text x="-20.32" y="7.62" size="1.524" layer="97">21</text>
+<text x="-20.32" y="5.08" size="1.524" layer="97">23</text>
+<text x="-20.32" y="2.54" size="1.524" layer="97">25</text>
+<text x="-20.32" y="0" size="1.524" layer="97">27</text>
+<text x="-20.32" y="-2.54" size="1.524" layer="97">29</text>
+<text x="-20.32" y="-5.08" size="1.524" layer="97">31</text>
+<text x="-20.32" y="-7.62" size="1.524" layer="97">33</text>
+<text x="-20.32" y="-10.16" size="1.524" layer="97">35</text>
+<text x="-20.32" y="-12.7" size="1.524" layer="97">37</text>
+<text x="-20.32" y="-15.24" size="1.524" layer="97">39</text>
+<text x="20.32" y="30.48" size="1.524" layer="97">4</text>
+<text x="20.32" y="33.02" size="1.524" layer="97">2</text>
+<text x="20.32" y="27.94" size="1.524" layer="97">6</text>
+<text x="20.32" y="25.4" size="1.524" layer="97">8</text>
+<text x="20.32" y="22.86" size="1.524" layer="97">10</text>
+<text x="20.32" y="20.32" size="1.524" layer="97">12</text>
+<text x="20.32" y="17.78" size="1.524" layer="97">14</text>
+<text x="20.32" y="15.24" size="1.524" layer="97">16</text>
+<text x="20.32" y="12.7" size="1.524" layer="97">18</text>
+<text x="20.32" y="10.16" size="1.524" layer="97">20</text>
+<text x="20.32" y="7.62" size="1.524" layer="97">22</text>
+<text x="20.32" y="5.08" size="1.524" layer="97">24</text>
+<text x="20.32" y="2.54" size="1.524" layer="97">26</text>
+<text x="20.32" y="0" size="1.524" layer="97">28</text>
+<text x="20.32" y="-2.54" size="1.524" layer="97">30</text>
+<text x="20.32" y="-5.08" size="1.524" layer="97">32</text>
+<text x="20.32" y="-7.62" size="1.524" layer="97">34</text>
+<text x="20.32" y="-10.16" size="1.524" layer="97">36</text>
+<text x="20.32" y="-12.7" size="1.524" layer="97">38</text>
+<text x="20.32" y="-15.24" size="1.524" layer="97">40</text>
+<pin name="USB_0" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="USB_1" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="USB_2" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="USB_3" x="22.86" y="-30.48" length="middle" rot="R180"/>
+<pin name="HDMI" x="-22.86" y="-25.4" length="middle"/>
+<pin name="DP" x="-22.86" y="-27.94" length="middle"/>
+<pin name="POWER_JACK" x="-22.86" y="-43.18" length="middle" direction="pwr"/>
+<pin name="CAMERA_CONN" x="-22.86" y="-30.48" length="middle"/>
+<pin name="MICRO_USB" x="22.86" y="-43.18" length="middle" rot="R180"/>
+<text x="0" y="-20.32" size="1.778" layer="97" align="bottom-center">CONNECTORS</text>
+<pin name="ETHERNET" x="-22.86" y="-22.86" length="middle"/>
+<pin name="M.2" x="-22.86" y="-33.02" length="middle"/>
+<pin name="POWER_JUMPER_0" x="-22.86" y="-38.1" length="middle"/>
+<pin name="POWER_JUMPER_1" x="-22.86" y="-40.64" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ULTRASONIC-HC-SR04P">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NVIDIA-JETSON-NANO">
+<description>NVIDIA Jetson Nano in/out</description>
 <gates>
 </gates>
 <devices>
