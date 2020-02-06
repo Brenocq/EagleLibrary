@@ -74,59 +74,68 @@
 <library>
 <packages>
 <package name="NVIDIA-JETSON-NANO">
-<pad name="P$1" x="3.81" y="8.89" drill="0.6"/>
-<pad name="P$2" x="3.81" y="7.62" drill="0.6"/>
-<pad name="P$3" x="3.81" y="6.35" drill="0.6"/>
-<pad name="P$4" x="3.81" y="5.08" drill="0.6"/>
-<pad name="P$5" x="3.81" y="3.81" drill="0.6"/>
-<pad name="P$6" x="3.81" y="2.54" drill="0.6"/>
-<pad name="P$7" x="3.81" y="1.27" drill="0.6"/>
-<pad name="P$8" x="3.81" y="0" drill="0.6"/>
-<pad name="P$9" x="3.81" y="-1.27" drill="0.6"/>
-<pad name="P$10" x="3.81" y="-2.54" drill="0.6"/>
-<pad name="P$11" x="3.81" y="-3.81" drill="0.6"/>
-<pad name="P$12" x="3.81" y="-5.08" drill="0.6"/>
-<pad name="P$13" x="3.81" y="-6.35" drill="0.6"/>
-<pad name="P$14" x="3.81" y="-7.62" drill="0.6"/>
-<pad name="P$15" x="3.81" y="-8.89" drill="0.6"/>
-<pad name="P$16" x="3.81" y="-10.16" drill="0.6"/>
-<pad name="P$17" x="3.81" y="-11.43" drill="0.6"/>
-<pad name="P$18" x="3.81" y="-13.97" drill="0.6"/>
-<pad name="P$19" x="3.81" y="-12.7" drill="0.6"/>
-<pad name="P$20" x="3.81" y="-15.24" drill="0.6"/>
-<pad name="P$21" x="2.54" y="8.89" drill="0.6"/>
-<pad name="P$22" x="2.54" y="7.62" drill="0.6"/>
-<pad name="P$23" x="2.54" y="6.35" drill="0.6"/>
-<pad name="P$24" x="2.54" y="5.08" drill="0.6"/>
-<pad name="P$25" x="2.54" y="3.81" drill="0.6"/>
-<pad name="P$26" x="2.54" y="2.54" drill="0.6"/>
-<pad name="P$27" x="2.54" y="1.27" drill="0.6"/>
-<pad name="P$28" x="2.54" y="0" drill="0.6"/>
-<pad name="P$29" x="2.54" y="-1.27" drill="0.6"/>
-<pad name="P$30" x="2.54" y="-2.54" drill="0.6"/>
-<pad name="P$31" x="2.54" y="-3.81" drill="0.6"/>
-<pad name="P$32" x="2.54" y="-5.08" drill="0.6"/>
-<pad name="P$33" x="2.54" y="-6.35" drill="0.6"/>
-<pad name="P$34" x="2.54" y="-7.62" drill="0.6"/>
-<pad name="P$35" x="2.54" y="-8.89" drill="0.6"/>
-<pad name="P$36" x="2.54" y="-10.16" drill="0.6"/>
-<pad name="P$37" x="2.54" y="-11.43" drill="0.6"/>
-<pad name="P$38" x="2.54" y="-12.7" drill="0.6"/>
-<pad name="P$39" x="2.54" y="-13.97" drill="0.6"/>
-<pad name="P$40" x="2.54" y="-15.24" drill="0.6"/>
-<pad name="P$41" x="11.43" y="8.89" drill="0.6"/>
-<pad name="P$42" x="7.62" y="8.89" drill="0.6"/>
-<pad name="P$43" x="15.24" y="8.89" drill="0.6"/>
-<pad name="P$44" x="19.05" y="8.89" drill="0.6"/>
-<pad name="P$45" x="7.62" y="6.35" drill="0.6"/>
-<pad name="P$46" x="11.43" y="6.35" drill="0.6"/>
-<pad name="P$47" x="15.24" y="6.35" drill="0.6"/>
-<pad name="P$48" x="19.05" y="5.08" drill="0.6"/>
-<pad name="P$49" x="19.05" y="3.81" drill="0.6"/>
-<pad name="P$50" x="7.62" y="-8.89" drill="0.6"/>
-<pad name="P$51" x="20.32" y="8.89" drill="0.6"/>
-<pad name="P$52" x="21.59" y="8.89" drill="0.6"/>
-<pad name="P$53" x="17.78" y="8.89" drill="0.6"/>
+<pad name="2" x="3.81" y="8.89" drill="0.6"/>
+<pad name="4" x="3.81" y="7.62" drill="0.6"/>
+<pad name="6" x="3.81" y="6.35" drill="0.6"/>
+<pad name="8" x="3.81" y="5.08" drill="0.6"/>
+<pad name="10" x="3.81" y="3.81" drill="0.6"/>
+<pad name="12" x="3.81" y="2.54" drill="0.6"/>
+<pad name="14" x="3.81" y="1.27" drill="0.6"/>
+<pad name="16" x="3.81" y="0" drill="0.6"/>
+<pad name="18" x="3.81" y="-1.27" drill="0.6"/>
+<pad name="20" x="3.81" y="-2.54" drill="0.6"/>
+<pad name="22" x="3.81" y="-3.81" drill="0.6"/>
+<pad name="24" x="3.81" y="-5.08" drill="0.6"/>
+<pad name="26" x="3.81" y="-6.35" drill="0.6"/>
+<pad name="28" x="3.81" y="-7.62" drill="0.6"/>
+<pad name="30" x="3.81" y="-8.89" drill="0.6"/>
+<pad name="32" x="3.81" y="-10.16" drill="0.6"/>
+<pad name="34" x="3.81" y="-11.43" drill="0.6"/>
+<pad name="38" x="3.81" y="-13.97" drill="0.6"/>
+<pad name="36" x="3.81" y="-12.7" drill="0.6"/>
+<pad name="40" x="3.81" y="-15.24" drill="0.6"/>
+<pad name="1" x="2.54" y="8.89" drill="0.6"/>
+<pad name="3" x="2.54" y="7.62" drill="0.6"/>
+<pad name="5" x="2.54" y="6.35" drill="0.6"/>
+<pad name="7" x="2.54" y="5.08" drill="0.6"/>
+<pad name="9" x="2.54" y="3.81" drill="0.6"/>
+<pad name="11" x="2.54" y="2.54" drill="0.6"/>
+<pad name="13" x="2.54" y="1.27" drill="0.6"/>
+<pad name="15" x="2.54" y="0" drill="0.6"/>
+<pad name="17" x="2.54" y="-1.27" drill="0.6"/>
+<pad name="19" x="2.54" y="-2.54" drill="0.6"/>
+<pad name="21" x="2.54" y="-3.81" drill="0.6"/>
+<pad name="23" x="2.54" y="-5.08" drill="0.6"/>
+<pad name="25" x="2.54" y="-6.35" drill="0.6"/>
+<pad name="27" x="2.54" y="-7.62" drill="0.6"/>
+<pad name="29" x="2.54" y="-8.89" drill="0.6"/>
+<pad name="31" x="2.54" y="-10.16" drill="0.6"/>
+<pad name="33" x="2.54" y="-11.43" drill="0.6"/>
+<pad name="35" x="2.54" y="-12.7" drill="0.6"/>
+<pad name="37" x="2.54" y="-13.97" drill="0.6"/>
+<pad name="39" x="2.54" y="-15.24" drill="0.6"/>
+<pad name="43" x="11.43" y="8.89" drill="0.6"/>
+<pad name="41" x="7.62" y="8.89" drill="0.6"/>
+<pad name="45" x="15.24" y="8.89" drill="0.6"/>
+<pad name="48" x="19.05" y="8.89" drill="0.6"/>
+<pad name="42" x="7.62" y="6.35" drill="0.6"/>
+<pad name="44" x="11.43" y="6.35" drill="0.6"/>
+<pad name="46" x="15.24" y="6.35" drill="0.6"/>
+<pad name="51" x="19.05" y="5.08" drill="0.6"/>
+<pad name="52" x="19.05" y="3.81" drill="0.6"/>
+<pad name="53" x="7.62" y="-8.89" drill="0.6"/>
+<pad name="49" x="20.32" y="8.89" drill="0.6"/>
+<pad name="50" x="21.59" y="8.89" drill="0.6"/>
+<pad name="47" x="17.78" y="8.89" drill="0.6"/>
+</package>
+<package name="DISPLAY-UGET">
+<pad name="1" x="-1.27" y="0" drill="0.6"/>
+<pad name="2" x="1.27" y="0" drill="0.6"/>
+</package>
+<package name="LOCK-UGET">
+<pad name="1" x="-2.54" y="0" drill="0.6"/>
+<pad name="2" x="0" y="0" drill="0.6"/>
+<pad name="3" x="2.54" y="0" drill="0.6"/>
 </package>
 </packages>
 <symbols>
@@ -175,47 +184,7 @@
 <wire x1="-17.78" y1="-45.72" x2="17.78" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-45.72" x2="17.78" y2="35.56" width="0.254" layer="94"/>
 <wire x1="17.78" y1="35.56" x2="-17.78" y2="35.56" width="0.254" layer="94"/>
-<text x="-20.32" y="30.48" size="1.524" layer="97">3</text>
 <text x="0" y="30.48" size="2.54" layer="97" align="bottom-center">GPIO</text>
-<text x="-20.32" y="33.02" size="1.524" layer="97">1</text>
-<text x="-20.32" y="27.94" size="1.524" layer="97">5</text>
-<text x="-20.32" y="25.4" size="1.524" layer="97">7</text>
-<text x="-20.32" y="22.86" size="1.524" layer="97">9</text>
-<text x="-20.32" y="20.32" size="1.524" layer="97">11</text>
-<text x="-20.32" y="17.78" size="1.524" layer="97">13</text>
-<text x="-20.32" y="15.24" size="1.524" layer="97">15</text>
-<text x="-20.32" y="12.7" size="1.524" layer="97">17</text>
-<text x="-20.32" y="10.16" size="1.524" layer="97">19</text>
-<text x="-20.32" y="7.62" size="1.524" layer="97">21</text>
-<text x="-20.32" y="5.08" size="1.524" layer="97">23</text>
-<text x="-20.32" y="2.54" size="1.524" layer="97">25</text>
-<text x="-20.32" y="0" size="1.524" layer="97">27</text>
-<text x="-20.32" y="-2.54" size="1.524" layer="97">29</text>
-<text x="-20.32" y="-5.08" size="1.524" layer="97">31</text>
-<text x="-20.32" y="-7.62" size="1.524" layer="97">33</text>
-<text x="-20.32" y="-10.16" size="1.524" layer="97">35</text>
-<text x="-20.32" y="-12.7" size="1.524" layer="97">37</text>
-<text x="-20.32" y="-15.24" size="1.524" layer="97">39</text>
-<text x="20.32" y="30.48" size="1.524" layer="97">4</text>
-<text x="20.32" y="33.02" size="1.524" layer="97">2</text>
-<text x="20.32" y="27.94" size="1.524" layer="97">6</text>
-<text x="20.32" y="25.4" size="1.524" layer="97">8</text>
-<text x="20.32" y="22.86" size="1.524" layer="97">10</text>
-<text x="20.32" y="20.32" size="1.524" layer="97">12</text>
-<text x="20.32" y="17.78" size="1.524" layer="97">14</text>
-<text x="20.32" y="15.24" size="1.524" layer="97">16</text>
-<text x="20.32" y="12.7" size="1.524" layer="97">18</text>
-<text x="20.32" y="10.16" size="1.524" layer="97">20</text>
-<text x="20.32" y="7.62" size="1.524" layer="97">22</text>
-<text x="20.32" y="5.08" size="1.524" layer="97">24</text>
-<text x="20.32" y="2.54" size="1.524" layer="97">26</text>
-<text x="20.32" y="0" size="1.524" layer="97">28</text>
-<text x="20.32" y="-2.54" size="1.524" layer="97">30</text>
-<text x="20.32" y="-5.08" size="1.524" layer="97">32</text>
-<text x="20.32" y="-7.62" size="1.524" layer="97">34</text>
-<text x="20.32" y="-10.16" size="1.524" layer="97">36</text>
-<text x="20.32" y="-12.7" size="1.524" layer="97">38</text>
-<text x="20.32" y="-15.24" size="1.524" layer="97">40</text>
 <pin name="USB_0" x="22.86" y="-22.86" length="middle" rot="R180"/>
 <pin name="USB_1" x="22.86" y="-25.4" length="middle" rot="R180"/>
 <pin name="USB_2" x="22.86" y="-27.94" length="middle" rot="R180"/>
@@ -230,6 +199,29 @@
 <pin name="M.2" x="-22.86" y="-33.02" length="middle"/>
 <pin name="POWER_JUMPER_0" x="-22.86" y="-38.1" length="middle"/>
 <pin name="POWER_JUMPER_1" x="-22.86" y="-40.64" length="middle"/>
+</symbol>
+<symbol name="DISPLAY-UGET">
+<pin name="HDMI" x="13.97" y="2.54" length="middle" rot="R180"/>
+<pin name="12V" x="13.97" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<wire x1="8.89" y1="7.62" x2="8.89" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-7.62" x2="-11.43" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="-7.62" x2="-11.43" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="7.62" x2="8.89" y2="7.62" width="0.254" layer="94"/>
+<text x="-6.35" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="0" y1="6.35" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.35" x2="-10.16" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-6.35" x2="-10.16" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="6.35" x2="0" y2="6.35" width="0.254" layer="94"/>
+</symbol>
+<symbol name="LOCK-UGET">
+<pin name="12V" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="IN" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="OUT" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -252,59 +244,92 @@
 <devices>
 <device name="" package="NVIDIA-JETSON-NANO">
 <connects>
-<connect gate="G$1" pin="3.3V_1" pad="P$1"/>
-<connect gate="G$1" pin="3.3V_2" pad="P$2"/>
-<connect gate="G$1" pin="5V_1" pad="P$3"/>
-<connect gate="G$1" pin="5V_2" pad="P$4"/>
-<connect gate="G$1" pin="AUDCLK" pad="P$5"/>
-<connect gate="G$1" pin="CAMERA_CONN" pad="P$6"/>
-<connect gate="G$1" pin="CAM_AF_EN" pad="P$7"/>
-<connect gate="G$1" pin="DP" pad="P$8"/>
-<connect gate="G$1" pin="ETHERNET" pad="P$9"/>
-<connect gate="G$1" pin="GND_1" pad="P$10"/>
-<connect gate="G$1" pin="GND_2" pad="P$11"/>
-<connect gate="G$1" pin="GND_3" pad="P$12"/>
-<connect gate="G$1" pin="GND_4" pad="P$13"/>
-<connect gate="G$1" pin="GND_5" pad="P$14"/>
-<connect gate="G$1" pin="GND_6" pad="P$15"/>
-<connect gate="G$1" pin="GND_7" pad="P$16"/>
-<connect gate="G$1" pin="GND_8" pad="P$17"/>
-<connect gate="G$1" pin="GPIO_PE6" pad="P$18"/>
-<connect gate="G$1" pin="GPIO_PZ0" pad="P$19"/>
-<connect gate="G$1" pin="HDMI" pad="P$20"/>
-<connect gate="G$1" pin="I2S_4_LRCK" pad="P$21"/>
-<connect gate="G$1" pin="I2S_4_SCLK" pad="P$22"/>
-<connect gate="G$1" pin="I2S_4_SDIN" pad="P$23"/>
-<connect gate="G$1" pin="I2S_4_SDOUT" pad="P$24"/>
-<connect gate="G$1" pin="LCD_BL_PWM" pad="P$25"/>
-<connect gate="G$1" pin="LCD_TE" pad="P$26"/>
-<connect gate="G$1" pin="M.2" pad="P$27"/>
-<connect gate="G$1" pin="MICRO_USB" pad="P$28"/>
-<connect gate="G$1" pin="MISO_1" pad="P$29"/>
-<connect gate="G$1" pin="MOSI_1" pad="P$30"/>
-<connect gate="G$1" pin="POWER_JACK" pad="P$31"/>
-<connect gate="G$1" pin="POWER_JUMPER_0" pad="P$32"/>
-<connect gate="G$1" pin="POWER_JUMPER_1" pad="P$33"/>
-<connect gate="G$1" pin="RTS_2" pad="P$34"/>
-<connect gate="G$1" pin="RX_2" pad="P$35"/>
-<connect gate="G$1" pin="SCK_1" pad="P$36"/>
-<connect gate="G$1" pin="SCK_2" pad="P$37"/>
-<connect gate="G$1" pin="SCL_1" pad="P$38"/>
-<connect gate="G$1" pin="SCL_2" pad="P$39"/>
-<connect gate="G$1" pin="SDA_1" pad="P$40"/>
-<connect gate="G$1" pin="SDA_2" pad="P$41"/>
-<connect gate="G$1" pin="SPI_1_CS0" pad="P$42"/>
-<connect gate="G$1" pin="SPI_1_CS1" pad="P$43"/>
-<connect gate="G$1" pin="SPI_2_CS0" pad="P$44"/>
-<connect gate="G$1" pin="SPI_2_CS1" pad="P$45"/>
-<connect gate="G$1" pin="SPI_2_MISO" pad="P$46"/>
-<connect gate="G$1" pin="SPI_2_MOSI" pad="P$47"/>
-<connect gate="G$1" pin="TX_2" pad="P$48"/>
-<connect gate="G$1" pin="UART_2_CTS" pad="P$49"/>
-<connect gate="G$1" pin="USB_0" pad="P$50"/>
-<connect gate="G$1" pin="USB_1" pad="P$51"/>
-<connect gate="G$1" pin="USB_2" pad="P$52"/>
-<connect gate="G$1" pin="USB_3" pad="P$53"/>
+<connect gate="G$1" pin="3.3V_1" pad="1"/>
+<connect gate="G$1" pin="3.3V_2" pad="17"/>
+<connect gate="G$1" pin="5V_1" pad="2"/>
+<connect gate="G$1" pin="5V_2" pad="4"/>
+<connect gate="G$1" pin="AUDCLK" pad="7"/>
+<connect gate="G$1" pin="CAMERA_CONN" pad="53"/>
+<connect gate="G$1" pin="CAM_AF_EN" pad="29"/>
+<connect gate="G$1" pin="DP" pad="46"/>
+<connect gate="G$1" pin="ETHERNET" pad="47"/>
+<connect gate="G$1" pin="GND_1" pad="9"/>
+<connect gate="G$1" pin="GND_2" pad="25"/>
+<connect gate="G$1" pin="GND_3" pad="39"/>
+<connect gate="G$1" pin="GND_4" pad="6"/>
+<connect gate="G$1" pin="GND_5" pad="14"/>
+<connect gate="G$1" pin="GND_6" pad="20"/>
+<connect gate="G$1" pin="GND_7" pad="30"/>
+<connect gate="G$1" pin="GND_8" pad="34"/>
+<connect gate="G$1" pin="GPIO_PE6" pad="33"/>
+<connect gate="G$1" pin="GPIO_PZ0" pad="31"/>
+<connect gate="G$1" pin="HDMI" pad="45"/>
+<connect gate="G$1" pin="I2S_4_LRCK" pad="35"/>
+<connect gate="G$1" pin="I2S_4_SCLK" pad="12"/>
+<connect gate="G$1" pin="I2S_4_SDIN" pad="38"/>
+<connect gate="G$1" pin="I2S_4_SDOUT" pad="40"/>
+<connect gate="G$1" pin="LCD_BL_PWM" pad="32"/>
+<connect gate="G$1" pin="LCD_TE" pad="15"/>
+<connect gate="G$1" pin="M.2" pad="52"/>
+<connect gate="G$1" pin="MICRO_USB" pad="49"/>
+<connect gate="G$1" pin="MISO_1" pad="21"/>
+<connect gate="G$1" pin="MOSI_1" pad="19"/>
+<connect gate="G$1" pin="POWER_JACK" pad="48"/>
+<connect gate="G$1" pin="POWER_JUMPER_0" pad="50"/>
+<connect gate="G$1" pin="POWER_JUMPER_1" pad="51"/>
+<connect gate="G$1" pin="RTS_2" pad="11"/>
+<connect gate="G$1" pin="RX_2" pad="10"/>
+<connect gate="G$1" pin="SCK_1" pad="23"/>
+<connect gate="G$1" pin="SCK_2" pad="13"/>
+<connect gate="G$1" pin="SCL_1" pad="28"/>
+<connect gate="G$1" pin="SCL_2" pad="5"/>
+<connect gate="G$1" pin="SDA_1" pad="27"/>
+<connect gate="G$1" pin="SDA_2" pad="3"/>
+<connect gate="G$1" pin="SPI_1_CS0" pad="24"/>
+<connect gate="G$1" pin="SPI_1_CS1" pad="26"/>
+<connect gate="G$1" pin="SPI_2_CS0" pad="18"/>
+<connect gate="G$1" pin="SPI_2_CS1" pad="16"/>
+<connect gate="G$1" pin="SPI_2_MISO" pad="22"/>
+<connect gate="G$1" pin="SPI_2_MOSI" pad="37"/>
+<connect gate="G$1" pin="TX_2" pad="8"/>
+<connect gate="G$1" pin="UART_2_CTS" pad="36"/>
+<connect gate="G$1" pin="USB_0" pad="41"/>
+<connect gate="G$1" pin="USB_1" pad="42"/>
+<connect gate="G$1" pin="USB_2" pad="43"/>
+<connect gate="G$1" pin="USB_3" pad="44"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DISPLAY-UGET">
+<gates>
+<gate name="G$1" symbol="DISPLAY-UGET" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="DISPLAY-UGET">
+<connects>
+<connect gate="G$1" pin="12V" pad="1"/>
+<connect gate="G$1" pin="HDMI" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LOCK-UGET">
+<gates>
+<gate name="G$1" symbol="LOCK-UGET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LOCK-UGET">
+<connects>
+<connect gate="G$1" pin="12V" pad="1"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
