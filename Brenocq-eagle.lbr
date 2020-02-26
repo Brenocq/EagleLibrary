@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -129,13 +129,21 @@
 <pad name="47" x="17.78" y="8.89" drill="0.6"/>
 </package>
 <package name="DISPLAY-UGET">
-<pad name="1" x="-1.27" y="0" drill="0.6"/>
-<pad name="2" x="1.27" y="0" drill="0.6"/>
+<pad name="1" x="-2.54" y="0" drill="0.6"/>
+<pad name="2" x="0" y="0" drill="0.6"/>
+<pad name="3" x="2.54" y="0" drill="0.6"/>
 </package>
 <package name="LOCK-UGET">
 <pad name="1" x="-2.54" y="0" drill="0.6"/>
 <pad name="2" x="0" y="0" drill="0.6"/>
 <pad name="3" x="2.54" y="0" drill="0.6"/>
+</package>
+<package name="LOCK-EM-05">
+<pad name="1" x="-2.54" y="1.27" drill="0.6"/>
+<pad name="2" x="0" y="1.27" drill="0.6"/>
+<pad name="3" x="2.54" y="1.27" drill="0.6"/>
+<pad name="4" x="2.54" y="-1.27" drill="0.6"/>
+<pad name="5" x="0" y="-1.27" drill="0.6"/>
 </package>
 </packages>
 <symbols>
@@ -201,8 +209,8 @@
 <pin name="POWER_JUMPER_1" x="-22.86" y="-40.64" length="middle"/>
 </symbol>
 <symbol name="DISPLAY-UGET">
-<pin name="HDMI" x="13.97" y="2.54" length="middle" rot="R180"/>
-<pin name="12V" x="13.97" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="HDMI" x="13.97" y="5.08" length="middle" rot="R180"/>
+<pin name="12V" x="13.97" y="0" length="middle" direction="pwr" rot="R180"/>
 <wire x1="8.89" y1="7.62" x2="8.89" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="8.89" y1="-7.62" x2="-11.43" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-11.43" y1="-7.62" x2="-11.43" y2="7.62" width="0.254" layer="94"/>
@@ -212,6 +220,7 @@
 <wire x1="0" y1="-6.35" x2="-10.16" y2="-6.35" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-6.35" x2="-10.16" y2="6.35" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="6.35" x2="0" y2="6.35" width="0.254" layer="94"/>
+<pin name="GND" x="13.97" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="LOCK-UGET">
 <pin name="12V" x="7.62" y="2.54" length="middle" rot="R180"/>
@@ -222,6 +231,18 @@
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
 <text x="-5.08" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="LOCK-EM-05">
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="SIG" x="12.7" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="VCC" x="12.7" y="0" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="CM" x="-12.7" y="5.08" length="middle"/>
+<pin name="NA" x="-12.7" y="0" length="middle"/>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -312,7 +333,8 @@
 <device name="" package="DISPLAY-UGET">
 <connects>
 <connect gate="G$1" pin="12V" pad="1"/>
-<connect gate="G$1" pin="HDMI" pad="2"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="HDMI" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -330,6 +352,25 @@
 <connect gate="G$1" pin="12V" pad="1"/>
 <connect gate="G$1" pin="IN" pad="2"/>
 <connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LOCK-EM-05">
+<gates>
+<gate name="G$1" symbol="LOCK-EM-05" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LOCK-EM-05">
+<connects>
+<connect gate="G$1" pin="CM" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="NA" pad="5"/>
+<connect gate="G$1" pin="SIG" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
